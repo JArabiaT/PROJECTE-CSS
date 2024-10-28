@@ -16,6 +16,21 @@
     display: table;
 }
 
+/*! FOOTER */
+footer{
+  display: flex;
+  justify-content: center;
+  
+}
+
+footer div img{
+  width: 2em;
+  height: auto;
+  margin: 1em;
+}
+
+
+
 [class*="col-"] {
     float: left;
 }
