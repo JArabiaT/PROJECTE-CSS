@@ -1,20 +1,52 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello World</title>
+    <link rel="stylesheet" href="/css/main_style.css">
 </head>
 <body>
-    <header>
-        <h1>Hello World</h1>
-        <h2>Contact</h2>
-    </header>
-    <main>
-
+  <header class="col-12">
+    <a href="./index.html"><img src="./img/jjd-logo.png" alt="jjd-logo"></a>
+    <nav class="col-1 col-md-6">
+        <img src="./img/nav-menu.png" alt="nav-menu">
+        <ul>
+            <li><a href="./index.html">Inici</a></li>
+            <li><a href="./catalog.html">Catalog</a></li>
+            <li><a href="./contact.html">Ajuda</a></li>
+            <li><a href="#">Iniciar Sessió</a></li>
+        </ul>
+    </nav>
+</header>
+    <main id="contacte">
+        <form action="contacte" method="post">
+            <ul>
+              <li>
+                <label for="name"></label>
+                <input type="text" placeholder="Introdueix el teu nom:" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail"></label>
+                <input type="email" placeholder="Introdueix el teu mail:" id="mail" name="user_mail" />
+              </li>
+              <li>
+                <label for="textarea"></label>
+                <textarea id="textarea1" placeholder="Introdueix un missatge:" rows="5" cols="30"></textarea>
+              </li>
+            </ul>
+            
+            <button class="button">Envía</button>
+          </form>
+          <iframe id="nave" class="col-12" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d745.9550199976915!2d2.2784648695784075!3d41.594774901161635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4c794136aa4d1%3A0x1049e99c38a78fc2!2sCarrer%20Londres%2C%2031%2C%2008401%20Granollers%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1730204191763!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer>
-
-    </footer>
+      <div>
+          <a href="#"><img src="./img/ico/facebook_icon.png" alt="facebook icon"></a>
+          <a href="#"><img src="./img/ico/instagram_icon.png" alt="instagram icon"></a>
+          <a href="#"><img src="./img/ico/twitter_icon.png" alt="twitter icon"></a>
+      </div>
+      <p>© Projecte de 0373 per Jose Miguel, David Fernandez, Jordi Arabia</p>
+  </footer>
 </body>
 </html>
