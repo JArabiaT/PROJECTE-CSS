@@ -4,6 +4,7 @@
     --main-bg3-color: #4F7336;
     --main-bg4-color: #A6775B;
     --main-bg5-color: #593122;
+    --main-bg: #f6f6f6;
     
     --main-text-color: white;
 }
@@ -67,6 +68,7 @@ label {
   background-color: rgb(64, 146, 239);
   transition: 0.3s;
   font-size: 1em;
+  margin-bottom: 20px;
 }
 
 .button:hover {
@@ -99,23 +101,56 @@ label {
   }
 }
 
-
-main div{
-  display: flex;
-  width: 600px;
-  height: 300px;
-  border: 2px solid black;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-
-.esports{background-image: url("./../img/secciones/deportes.png");}
+.esports{background-image: url("./../img/productos/Zapatilla_Forum_Low_CL_Marron.webp");}
 
 .casual{background-image: url("./../img/secciones/moda-casual.webp");}
 
 .complements{background-image: url("./../img/secciones/complementos.webp");}
+
+main div{
+  display: flex;
+  /* width: 600px; */
+  /* height: 300px; */
+  height: 110vh;
+  /* border: 2px solid black; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contShadow{
+  /* bottom: 20px;
+  top: 20px;
+  left: 20px;
+  right: 20px; */
+  padding: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2); /* Fondo semitransparente */
+  border-radius: 10px;
+  backdrop-filter: blur(10px); /* Desenfoque del fondo */
+  color: rgb(64, 146, 239); /* Color del texto */
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+.contShadow h1{
+  margin:0;
+  font-size: 24px;
+}
+
+.contshadow p{
+  margin:0;
+  font-size: 16px;
+}
+
+main div img{
+  height: 30%;
+  width: 30%;
+}
 
 #contacte{
   margin: 1.5em;

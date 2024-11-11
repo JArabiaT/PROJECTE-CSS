@@ -7,19 +7,35 @@
     <link rel="stylesheet" href="./../css/prod_style.css">
     <link rel="shortcut icon" href="./img/ico/shopping_cart.ico" type="shopping_cart_icon">
 </head>
-<body>
+<body id="bodyProducto">
     <header>
-        <h1>Hello World</h1>
-        <h2>producto2</h2>
-        <img src="./../img/jjd-logo.png" alt="jjd-logo">
+        <a href="./../index.html"><img src="./../img/jjd-logo.png" alt="jjd-logo"></a>
+        <nav class="col-1 col-md-4">
+            <img src="./../img/nav-menu.png" alt="nav-menu">
+            <ul>
+                <li><a href="./../index.html">Inici</a></li>
+                <li><a href="./../catalog.html">Catalog</a></li>
+                <li><a href="./../contact.html">Ajuda</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-
+        <div class="container-producto">
+            <img id="producte" src="./../img/productos/Zapatilla_Forum_Low_CL_Marron.webp" alt="Imatge de les sabates FORUM LOW">
+            <div class="product-text">
+                <h1>ZAPATILLA FORUM LOW</h1>
+                <p>Compra les sabatilles Forum Low, les sneakers mes buscades del moment, ja disponibles en JJD.</p>
+                <p>119,50€</p>
+                <button>COMPRAR</button>
+            </div>
+        </div>
     </main>
     <footer>
-        <a><img src="./img/ico/facebook_icon.png" alt="facebook icon"></a>
-        <a><img src="./img/ico/instagram_icon.png" alt="instagram icon"></a>
-        <a><img src="./img/ico/twitter_icon.png" alt="twitter icon"></a>
+        <div>
+            <a href="#"><img src="./../img/ico/facebook_icon.png" alt="facebook icon"></a>
+            <a href="#"><img src="./../img/ico/instagram_icon.png" alt="instagram icon"></a>
+            <a href="#"><img src="./../img/ico/twitter_icon.png" alt="twitter icon"></a>
+        </div>
         <p>© Projecte de 0373 per Jose Miguel, David Fernandez, Jordi Arabia</p>
     </footer>
 </body>
